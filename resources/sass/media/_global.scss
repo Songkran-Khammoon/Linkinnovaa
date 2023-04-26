@@ -1,0 +1,84 @@
+// Small devices (landscape phones, 600px and up)
+@media (min-width: $media-breakpoint-sm) {
+  .page-contents {
+    .bg-parallax-contant {
+      .bg-text {
+        padding: 5% 3%;
+      }
+
+    }
+  }
+}
+
+// Medium devices (tablets, 960px and up)
+@media (min-width:$media-breakpoint-md) {
+  #home {
+    .style-shadow {
+      .style-btn {
+        .btn {
+          background-color: white;
+          color: red;
+        }
+
+        .btn:hover {
+          background-color: rgb(255, 0, 0);
+          color: rgb(255, 255, 255);
+        }
+
+      }
+    }
+  }
+
+  .banner {
+    .bg-text {
+      left: 30%;
+      font-size: 18px;
+      border-radius: 3px;
+      width: 40%;
+    }
+  }
+
+  .bg-parallax-contant {
+
+    .bg-text {
+      padding: 10% 5%;
+
+      .col-socialmedia {
+        text-align: end;
+      }
+
+    }
+  }
+}
+
+// Large devices (desktops, 1280px and up)
+@media (min-width: $media-breakpoint-lg) {
+  #app-bar {
+    .menu-bar {
+      ul {
+        li {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .icon-login {
+      font-size: 26px;
+
+      ul {
+        li {
+          i {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1920px and up)
+@media (min-width: $media-breakpoint-xl) {
+  .classname {
+    color: gray;
+  }
+}
